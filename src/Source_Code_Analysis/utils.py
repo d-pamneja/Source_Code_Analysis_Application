@@ -1,6 +1,7 @@
 # Importing the dependencies
 
 import os
+import shutil
 from git import Repo
 from langchain.text_splitter import Language
 from langchain.document_loaders.generic import GenericLoader
@@ -20,22 +21,26 @@ from src.Source_Code_Analysis.logger import logging
 # Repository Ingestion
 def ingest_repo(repo_url):
     os.makedirs("repo",exist_ok=True)
-    repo_path = "../../repo/"
-    Repo.clone(
-        repo_url,
-        to_path = repo_path
-    )
+    repo_path = "./repo/"
+    
+    if os.path.exists(repo_path):
+        shutil.rmtree(repo_path)
+        
+        
+    Repo.clone_from(repo_url, to_path=repo_path)
     
 # Loading the Repository
 def load_repo(repo_path):
     loader = GenericLoader.from_filesystem(
         repo_path,
         glob="**/*",
+        suffixes=[".py"], # Will load only python files, remove if you want to load multiple file types
         parser= LanguageParser(language=Language.PYTHON,parser_threshold=500)
     )
     
     documents = loader.load()
-    logging.info("Repositery Loaded")
+    
+    logging.info("Repository Loaded")
     return documents
 
 # Chunking the documents

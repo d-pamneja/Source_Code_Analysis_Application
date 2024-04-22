@@ -133,6 +133,7 @@ venv.bak/
 research/test_repo
 research/data
 data/
+repo/
 
 # Spyder project settings
 .spyderproject
