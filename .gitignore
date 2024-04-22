@@ -130,7 +130,8 @@ env.bak/
 venv.bak/
 
 # Embedded-Repositories
-./research/test_repo
+research/test_repo
+research/data
 
 # Spyder project settings
 .spyderproject
