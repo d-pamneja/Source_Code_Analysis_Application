@@ -1,7 +1,7 @@
 # Importing the dependencies
 from .utils import ingest_repo,load_repo,chunk_split,load_embeddings
 from langchain.vectorstores import Chroma
-
+from .logger import logging
 
 from dotenv import load_dotenv
 import os
@@ -20,3 +20,5 @@ vectordb = Chroma.from_documents(
     persist_directory= "../../data"
 )
 vectordb.persist()
+
+logging.info(f"Vector DB Created.")
