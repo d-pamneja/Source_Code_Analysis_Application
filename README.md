@@ -214,8 +214,8 @@ Project Link: [https://github.com/d-pamneja/Source_Code_Analysis_Application](ht
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/dhruv-pamneja-3b8432187/
 [product-screenshot]: static/homepage_ss.png
-[chromadb]: https://img.shields.io/badge/ChromaDB-FF2D20?style=for-the-badge&logo=chromadb&logoColor=white
-[chromadb-url]: https://chromadb.com
+[chromadb]: https://img.shields.io/badge/ChromaDB-Ready-brightgreen
+[chromadb-url]: https://www.trychroma.com
 [flask]: https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white
 [flask-url]: https://flask.palletsprojects.com/en/2.0.x/
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
