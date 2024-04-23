@@ -214,7 +214,7 @@ Project Link: [https://github.com/d-pamneja/Source_Code_Analysis_Application](ht
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/dhruv-pamneja-3b8432187/
 [product-screenshot]: static/homepage_ss.png
-[chromadb]: https://img.shields.io/badge/ChromaDB-Ready-brightgreen
+[chromadb]: https://img.shields.io/badge/ChromaDB-000000?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7DAAAOwwHHb6hkAAACMUlEQVRIS52TS2sVQRCGn7EFeqCjlwUNBpCNgEXVPA+4QiRUhFwUGgRsECAYQIqAsEZEgIJAVCGYkEiIsKDGR4Pn71unE6Tp+65l3dfvtt9+7iRyEEmEdSJEmSJEmSJEmSJEu0fkAQAACAECBAgQIAAgIACAECBAgQIAAgIACBMK0LiFJEmSJEmSJEmSJEkS5JEmSJEmSJEmSJEkS5H6BlK2AxQOD4GViAtJEmSJEmSJEmSJEnS+x6gYKCSJDgwQPBT4GBkqwjQkSJEkSJEkSJEkSJEkS5I+gYFhgXQkQIAAgIAIECBAgAACAQCBAgQIAAgIACBAqgrARkIB9lGEmSJEmSJEmSJEkSJEkiQ9YUkSZIkSZIkSZIkSZIkSZKJCeBYBQIECBAgAACAECBAgQIAAgIACBAgQIDAsELj4lSZIkSZIkSZIkSZIkSJIkSJIkSJIkSJIkS5F6Bkq2AxgYD4G9gqyQIAAgIAIECBAgQIAAgIACAECBAgQIOLiFSJEmSJEmSJEmSJElS4V6BkqwjQkSJEkSJEkSJEkSJEkSJEkiQd4GCYiESJEkSJEkSJEkSJEkS5ElIFgcPpOBkqwjQkSJEkSJEkSJEkSJEkSJEkiQl4FAYQnHr3Iq6Nb/WAAAAAElFTkSuQmCC&logoColor=white
 [chromadb-url]: https://www.trychroma.com
 [flask]: https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white
 [flask-url]: https://flask.palletsprojects.com/en/2.0.x/
