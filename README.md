@@ -157,6 +157,7 @@ The application is deployed via AWS EC2 instance. That can be achieved by follow
 
 The application should now be up and running on the AWS EC2 instance, allowing users to generate quiz questions from text or PDF documents. The screenshots for the instance are shown below:
 
+![EC2_screenshot](static/ec2_screenshot.png)
 ![instance_screenshot](static/instance_screenshot.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
