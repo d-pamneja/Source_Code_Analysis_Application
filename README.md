@@ -16,10 +16,10 @@
     <img src="static/logo.jpg" alt="Logo" width="500" height="300">
   </a>
 
-<h3 align="center">Quiz Generator Application using Langchain</h3>
+<h3 align="center">Source Code Analysis Application using OpenAI</h3>
 
   <p align="center">
-    The aim of this project is to generate quiz questions of MCQ or True/False type from a given text/PDF using 
+    The aim of this project is to take any given `python` code in a repository and analyze it via a chatbot using 
     OpenAI models and Langchain API.
     <br />
     <br />
@@ -54,9 +54,11 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-In this project, we have leveraged the capabilities of OpenAI models and Langchain API to generate quiz questions of MCQ or True/False type from a given text/PDF. The project aims to automate the process of generating quiz questions, thereby saving time and effort for educators, content creators, and learners. By utilizing advanced natural language processing (NLP) models, the application can extract key information from the text and formulate relevant quiz questions based on the content.
+In this project, we have leveraged the capabilities of OpenAI models and Langchain API to analyze the source code of a given Python repository. The application allows users to input the URL of a GitHub repository containing Python code and receive detailed insights and analysis via a chatbot interface. The chatbot interacts with the user, providing information on the code structure, functions, variables, and potential improvements. This project aims to simplify the process of code analysis and provide valuable feedback to developers, educators, and learners. By utilizing advanced natural language processing (NLP) models, the application can extract key information from the code and generate meaningful insights for the user.
 
-The user can decide the number of questions to be generated, and the complexity level of the questions. The application provides a user-friendly interface that allows users to input the text or upload a PDF document, select the desired parameters, and generate quiz questions with a single click. The generated questions can be used for educational purposes, training materials, assessments, or content creation across various domains.
+The user can interact with the chatbot to ask questions about the code, understand its functionality, and receive suggestions for optimization. The chatbot uses OpenAI models to process the user's queries and provide accurate responses based on the code analysis. The Langchain API is used to extract relevant information from the code and generate insights that can help improve the code quality and performance. The application is designed to be user-friendly and intuitive, allowing users to easily input the GitHub repository URL and receive detailed analysis results in real-time.
+
+Along with that, the user can enter "clear" to delete the previous repository and enter a new database and cloned repository. With this, the user can analyze multiple repositories in a single session. The chatbot provides a conversational interface that guides the user through the code analysis process and helps them understand the code structure, logic, and potential areas for improvement. The application is designed to be interactive, informative, and engaging, making it an ideal tool for developers, educators, and learners who want to gain insights into Python code and enhance their programming skills.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
