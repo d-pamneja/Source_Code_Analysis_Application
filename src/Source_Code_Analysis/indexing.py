@@ -9,18 +9,22 @@ load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 # PreRequisties
-repo_path = "../../repo/"
-print(os.system("pwd"))
+DATA_DIRECTORY = "data/"
+
+# Function to initialize or reload the database
+
+# PreRequisites
 documents = load_repo("./repo/")
 text_chunks = chunk_split(documents)
 embeddings = load_embeddings()
 
-# Creating Vector DataBase
+# Create or reload Vector Database
 vectordb = Chroma.from_documents(
     text_chunks,
     embedding=embeddings,
-    persist_directory= "data/"
+    persist_directory=DATA_DIRECTORY
 )
 vectordb.persist()
 
-logging.info(f"Vector DB Created.")
+logging.info(f"Vector DB Created or reloaded.")
+

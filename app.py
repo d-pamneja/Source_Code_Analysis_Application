@@ -64,6 +64,9 @@ def chat():
 
     if input == "clear":
         os.system("rm -rf repo")
+        os.system("rm -rf data")
+        
+        return "Database cleared. You can now enter the new Github Repository Link"
 
     result = qa(input)
     return str(result["answer"])

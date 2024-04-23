@@ -34,7 +34,7 @@ def load_repo(repo_path):
     loader = GenericLoader.from_filesystem(
         repo_path,
         glob="**/*",
-        suffixes=[".py"], # Will load only python files, remove if you want to load multiple file types
+        suffixes=[".py",".ipynb"], # Will load only python files, remove if you want to load multiple file types
         parser= LanguageParser(language=Language.PYTHON,parser_threshold=500)
     )
     
