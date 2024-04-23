@@ -13,7 +13,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/d-pamneja/Source_Code_Analysis_Application">
-    <img src="static/logo.jpeg" alt="Logo" width="500" height="300">
+    <img src="static/logo.jpg" alt="Logo" width="500" height="300">
   </a>
 
 <h3 align="center">Quiz Generator Application using Langchain</h3>
