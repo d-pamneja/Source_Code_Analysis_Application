@@ -217,7 +217,7 @@ Project Link: [https://github.com/d-pamneja/Source_Code_Analysis_Application](ht
 [product-screenshot]: static/homepage_ss.png
 [amazonaws]: https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white
 [amazonaws-url]: https://aws.amazon.com/
-[chromadb]: hhhttps://img.shields.io/badge/ChromaDB-000000?style=for-the-badge&logo=flask&logoColor=white
+[chromadb]: https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white
 [chromadb-url]: https://www.trychroma.com
 [flask]: https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white
 [flask-url]: https://flask.palletsprojects.com/en/2.0.x/
