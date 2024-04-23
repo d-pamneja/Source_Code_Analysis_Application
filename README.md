@@ -19,7 +19,7 @@
 <h3 align="center">Source Code Analysis Application using OpenAI</h3>
 
   <p align="center">
-    The aim of this project is to take any given `python` code in a repository and analyze it via a chatbot using 
+    The aim of this project is to take any given ```python``` code in a repository and analyze it via a chatbot using 
     OpenAI models and Langchain API.
     <br />
     <br />
