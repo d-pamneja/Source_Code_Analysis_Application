@@ -53,7 +53,7 @@ def gitRepo():
     if request.method == 'POST':
         user_input = request.form['question']
         ingest_repo(user_input)
-        os.system("python ./src/Source_Code_Analysis/indexing.py")
+        os.system("python3 ./src/Source_Code_Analysis/indexing.py")
 
     return jsonify({"response": str(user_input) })
 
